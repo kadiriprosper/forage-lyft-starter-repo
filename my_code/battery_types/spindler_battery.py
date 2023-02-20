@@ -1,4 +1,7 @@
-from my_code.battery import Battery
+from datetime import datetime
+
+from my_code.battery_types.battery import Battery
+
 
 class SpindlerBattery(Battery):
     def __init__(self, last_service_date, current_date):

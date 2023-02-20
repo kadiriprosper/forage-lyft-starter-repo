@@ -1,5 +1,3 @@
-from my_code.engine import Engine
-from my_code.battery import Battery
 from servicable import Servicable
 
 class Car(Servicable):

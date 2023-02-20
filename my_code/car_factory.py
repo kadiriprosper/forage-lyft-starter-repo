@@ -1,9 +1,9 @@
-from my_code.car import Car
-from my_code.engines.capulet_engine import CapuletEngine
-from my_code.engines.sternman_engine import SternmanEngine
-from my_code.engines.willoughby_engine import WilloughbyEngine
-from my_code.battery_types.nubbin_battery import NubbinBattery
-from my_code.battery_types.spindler_battery import SpindlerBattery
+from car import Car
+from engines.capulet_engine import CapuletEngine
+from engines.sternman_engine import SternmanEngine
+from engines.willoughby_engine import WilloughbyEngine
+from battery_types.nubbin_battery import NubbinBattery
+from battery_types.spindler_battery import SpindlerBattery
 
 class CarFactory:
     def __init__(self):
